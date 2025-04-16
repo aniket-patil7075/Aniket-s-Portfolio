@@ -7,7 +7,7 @@ import SocialIcons from "./SocialIcons";
  * Represents the hero section of the page.
  *
  * @component
- * @param {string} name - The name to be displayed in the hero section.
+ * @param {string} name 
  */
 
 const Hero = ({ name }) => {

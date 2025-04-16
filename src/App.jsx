@@ -38,10 +38,10 @@ function App() {
   // Personal details for the user
   const personalDetails = {
     name: "Aniket Patil",
-    location: "United Kingdom",
-    email: "michael-yeates@outlook.com",
+    location: "Pune , Maharashtra",
+    email: "aniketp7075@gmail.com",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "My unique blend of technical expertise and creative problem-solving allows me to approach each project with a strong focus on performance, scalability, and user experience. As a full stack web developer, I build efficient, end-to-end digital solutions that are both visually engaging and functionally robust..",
   };
 
   const location = useLocation();

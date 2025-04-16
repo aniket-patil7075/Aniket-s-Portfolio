@@ -141,7 +141,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email to <a href="mailto:michael-yeates@outlook.com">michael-yeates@outlook.com</a>
 
-<a href="https://www.linkedin.com/in/mdyeates/">LinkedIn</a> | <a href="https://github.com/mdyeates/">GitHub</a>
+<a href="https://www.linkedin.com/in/aniket-patil-b40338288/">LinkedIn</a> | <a href="https://github.com/mdyeates/">GitHub</a>
 
 Project Link: [https://github.com/mdyeates/my-portfolio](https://github.com/mdyeates/my-portfolio)
 
