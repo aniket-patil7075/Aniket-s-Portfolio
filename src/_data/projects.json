@@ -1,14 +1,14 @@
 [
   {
-    "title": "Routes",
-    "description": "Plan Safe Routes",
-    "image": "/projectImages/bike.png",
+    "title": "Travela",
+    "description": "Booking Travel Destination",
+    "image": "/projectImages/travela-port-removebg-preview.png",
     "image2": "/projectImages/cyclingfamily.jpeg",
     "image3": "/projectImages/routes3.png",
-    "body": "During my immersive coding bootcamp experience, I collaborated with a team to develop a sophisticated project — a MVP version with a distinct emphasis on route optimisation. Demonstrating a comprehensive understanding of the project's intricacies, I took charge of the entire route management aspect.\nThe purpose of this initiative was to enhance the safety of young cyclists. Leveraged Leaflet.js and TomTom's Routing/Reverse Geolocation APIs.\nIn practical terms, this translates to the creation of a interactive map. Users can intricately plan their routes, considering factors such as real-time traffic updates, designated bike lanes, and terrain gradients. The result is a visually appealing mapping experience. An adventure plotted with utmost consideration for safety and enjoyment.",
-    "technologies": ["Leaflet", "jQuery", "Bootstrap", "HTML", "CSS"],
-    "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "body": "Travela Booking System is a responsive and interactive tour booking web application built using React.js and React Bootstrap. The platform allows users to explore a wide range of travel destinations and conveniently book tour packages. It features a visually appealing UI with a carousel, search bar, destination highlights, and an easy-to-use booking form. Users can select their preferred destination, date & time, number of persons, and get instant pricing. The site includes sections like Home, About, Services, Packages, Blog, and a Pages dropdown, along with a sticky transparent navbar and smooth navigation. The application ensures a seamless user experience across all screen sizes, making it ideal for users planning their next vacation.",
+    "technologies": [ "HTML", "CSS","JavaScript","ReactJs", "React Bootstrap"],
+    "github": "https://github.com/aniket-patil7075/Travela",
+    "deployed": "https://travela-booking.vercel.app/",
     "bgcolor": "var(--hl2-color)",
     "id": "1"
   },
