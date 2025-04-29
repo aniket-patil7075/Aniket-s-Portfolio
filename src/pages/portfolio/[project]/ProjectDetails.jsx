@@ -90,7 +90,7 @@ const ProjectDetails = () => {
                 <a href={project.deployed} target="_blank" rel="noopener noreferrer">
                   <Button name="View Site" />
                 </a>
-                <Link to="/portfolio">
+                <Link to="/project">
                   <Button name="Go Back" color="var(--hl2-color)" />
                 </Link>
               </motion.div>

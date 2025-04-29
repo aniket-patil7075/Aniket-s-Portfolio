@@ -10,6 +10,7 @@ import ProjectDetails from "./pages/portfolio/[project]/ProjectDetails";
 import Resume from "./pages/resume/Resume";
 import Contact from "./pages/contact/Contact";
 import PageNotFound from "./pages/404/PageNotFound";
+import Experience from "./pages/experience/Experience";
 
 /**
  * Instructions for Customizing the Portfolio
@@ -88,7 +89,8 @@ function App() {
           {/* Define routes */}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/project" element={<Portfolio />} />
             <Route path="/resume" element={<Resume brand={personalDetails.brand} />} />
 
             <Route
@@ -102,7 +104,7 @@ function App() {
               }
             />
             <Route path="/page-not-found" element={<PageNotFound />} />
-            <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} />
+            <Route path="/project/:projectTitle" element={<ProjectDetails />} />
             {/* Fallback route for unknown paths */}
             <Route path="*" element={<Navigate to="/page-not-found" />} />
           </Routes>

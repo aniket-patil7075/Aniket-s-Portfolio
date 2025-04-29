@@ -85,9 +85,9 @@ const AboutMe = ({ name }) => {
                 </motion.p>
               </motion.div>
 
-              {/* Button to view the portfolio */}
-              <NavLink to="/portfolio">
-                <Button name="View Portfolio" />
+              {/* Button to view the project */}
+              <NavLink to="/project">
+                <Button name="View Project" />
               </NavLink>
             </motion.div>
           </div>

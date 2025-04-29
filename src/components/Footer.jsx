@@ -50,15 +50,15 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
-        <span>
+      <a className="footer-link" href="https://github.com/aniket-patil7075/Aniket-s-Portfolio">
+        {/* <span>
           <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
           {gitHubInfo.forks} - Give this project a star!
-        </span>
+        </span> */}
         <p>
           <span>▷</span> Designed and built by Aniket Patil &copy; {currentYear}
         </p>
-        <p>All views and work are my own</p>
+        <p>All work is my own</p>
       </a>
 
       {/* Buy Me A Coffee link */}

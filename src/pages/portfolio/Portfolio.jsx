@@ -5,7 +5,7 @@ import ProjectList from "../../components/ProjectList";
 import Footer from "../../components/Footer";
 
 /**
- * Represents the Portfolio page component.
+ * Represents the project page component.
  * Displays a list of projects and allows users to view the creator's work.
  *
  * @component
@@ -22,7 +22,7 @@ const Portfolio = () => {
 
   return (
     <>
-      {/* Main Portfolio Page */}
+      {/* Main project Page */}
       <main className="portfolio container">
         {/* Display the page header */}
         <PageHeader title="Projects" description="View my work" />
