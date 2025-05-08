@@ -1,26 +1,26 @@
 [
     {
-        "role": "Frontend Developer Intern",
-        "company": "TechSoft Solutions",
-        "duration": "Jan 2024 - Apr 2024",
+        "role": "Web Developer Intern",
+        "company": "Mechlean Concept Pvt Ltd",
+        "duration": "Jan 2024 - June 2024",
         "description": "Developed and optimized UI components for the ERP system. Improved overall responsiveness and user flow using React.js and Bootstrap.",
         "image": "/projectImages/P1.png",
         "bgcolor": "#e8f0fe",
         "id": "1"
     },
     {
-        "role": "Web Developer Intern",
-        "company": "CodeWave",
-        "duration": "Jul 2023 - Oct 2023",
+        "role": "MERN Stack Developer Intern",
+        "company": "FTFL Technology Pvt Ltd",
+        "duration": "Jan 2025 - Apr 2025",
         "description": "Contributed to the development of an e-commerce admin dashboard. Implemented reusable components and state management using React Context API.",
         "image": "/projectImages/P1.png",
         "bgcolor": "#fef9e7",
         "id": "2"
     },
     {
-        "role": "Full Stack Developer Intern",
-        "company": "DevSphere Labs",
-        "duration": "Nov 2023 - Dec 2023",
+        "role": "MERN Stack Developer (Next Js)",
+        "company": "FTFL Technology Pvt Ltd",
+        "duration": "May 2025 - Present",
         "description": "Built RESTful APIs using Node.js and Express. Integrated frontend with MongoDB for dynamic data handling. Enhanced user experience through responsive UI updates.",
         "image": "/projectImages/P1.png",
         "bgcolor": "#e8f8f5",

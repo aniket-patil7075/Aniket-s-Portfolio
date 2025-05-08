@@ -44,6 +44,17 @@ const NavLinks = () => {
           transition={{ delay: 2.3, duration: 0.5, type: "spring" }}
         >
           {/* Experience link */}
+          <NavLink to="/skills" onClick={() => setIsMenuOpen(false)}>
+            Skills
+          </NavLink>
+        </motion.div>
+
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 2.3, duration: 0.5, type: "spring" }}
+        >
+          {/* Experience link */}
           <NavLink to="/experience" onClick={() => setIsMenuOpen(false)}>
             Experience
           </NavLink>
