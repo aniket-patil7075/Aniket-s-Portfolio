@@ -1,53 +1,62 @@
 [
-    {
-      "name": "HTML",
-      "icon": "/projectImages/P1.png",
-      "bgcolor": "#e34c26"
-    },
-    {
-      "name": "CSS",
-      "icon": "/projectImages/P1.png",
-      "bgcolor": "#264de4"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "/projectImages/P1.png",
-      "bgcolor": "#f0db4f"
-    },
-    {
-      "name": "TypeScript",
-      "icon": "/skills/typescript.png",
-      "bgcolor": "#007acc"
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "/skills/bootstrap.png",
-      "bgcolor": "#563d7c"
-    },
-    {
-      "name": "Tailwind",
-      "icon": "/skills/tailwind.png",
-      "bgcolor": "#06b6d4"
-    },
-    {
-      "name": "React JS",
-      "icon": "/skills/react.png",
-      "bgcolor": "#61dafb"
-    },
-    {
-      "name": "Next JS",
-      "icon": "/skills/nextjs.png",
-      "bgcolor": "#000000"
-    },
-    {
-      "name": "Node JS",
-      "icon": "/skills/nodejs.png",
-      "bgcolor": "#68a063"
-    },
-    {
-      "name": "Express JS",
-      "icon": "/skills/express.png",
-      "bgcolor": "#333333"
-    }
-  ]
-  
+  {
+    "name": "HTML",
+    "icon": "/projectImages/P1.png",
+    "bgcolor": "var(--hl2-color)"
+  },
+  {
+    "name": "CSS",
+    "icon": "/projectImages/P1.png",
+    "bgcolor": "var(--hl-color)"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "/projectImages/P1.png",
+    "bgcolor": "#f4e04d" 
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/skills/typescript.png",
+    "bgcolor": "#6c4bf0" 
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "/skills/bootstrap.png",
+    "bgcolor": "#dcb4ff" 
+  },
+  {
+    "name": "Tailwind",
+    "icon": "/skills/tailwind.png",
+    "bgcolor": "#d2f8cc"
+  },
+  {
+    "name": "React JS",
+    "icon": "/skills/react.png",
+    "bgcolor": "var(--hl-color)"
+  },
+  {
+    "name": "Next JS",
+    "icon": "/skills/nextjs.png",
+    "bgcolor": "#f4e04d" 
+  },
+  {
+    "name": "Node JS",
+    "icon": "/skills/nodejs.png",
+    "bgcolor": "var(--hl2-color)" 
+  },
+  {
+    "name": "Express JS",
+    "icon": "/skills/express.png",
+    "bgcolor": "#d2f8cc" 
+  },
+  {
+    "name": "MonogDB",
+    "icon": "/skills/express.png",
+    "bgcolor": "#6c4bf0 " 
+  },
+  {
+    "name": "SQL",
+    "icon": "/skills/express.png",
+    "bgcolor": "#dcb4ff" 
+  }
+]

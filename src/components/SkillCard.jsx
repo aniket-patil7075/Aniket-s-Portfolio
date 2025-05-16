@@ -20,14 +20,16 @@ const SkillCard = ({ name, icon, bgcolor }) => {
         overflow: "hidden",
         position: "relative",
         cursor: "pointer",
-        transition: "0.4s ease-in-out",
       }}
-      whileHover={{ scale: 1.03 }}
+      initial="initial"
+      whileHover="hover"
     >
       <motion.div
         className="skill-text"
-        initial={{ x: 0 }}
-        whileHover={{ x: -30 }}
+        variants={{
+          initial: { x: 0 },
+          hover: { x: -20 },
+        }}
         transition={{ duration: 0.3 }}
       >
         <h5 className="mb-0 fw-bold">{name}</h5>
@@ -35,13 +37,15 @@ const SkillCard = ({ name, icon, bgcolor }) => {
 
       <motion.div
         className="skill-icon"
-        initial={{ x: 0, scale: 1 }}
-        whileHover={{ x: -90, scale: 1.3 }}
+        variants={{
+          initial: { x: 0, scale: 1 },
+          hover: { x: -40, scale: 1.3 },
+        }}
         transition={{ duration: 0.4 }}
         style={{
           position: "absolute",
           right: "20px",
-          top: "50%",
+          top: "13%",
           transform: "translateY(-50%)",
         }}
       >
@@ -49,8 +53,8 @@ const SkillCard = ({ name, icon, bgcolor }) => {
           src={icon}
           alt={name}
           style={{
-            width: "40px",
-            height: "40px",
+            width: "150px",
+            height: "100px",
             objectFit: "contain",
             filter: "drop-shadow(2px 2px 4px rgba(0,0,0,0.2))",
           }}
