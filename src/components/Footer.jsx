@@ -61,27 +61,7 @@ const Footer = () => {
         <p>All work is my own</p>
       </a>
 
-      {/* Buy Me A Coffee link */}
-      <motion.a
-        href="https://www.buymeacoffee.com/mdyeates"
-        initial="initial"
-        whileHover="hover"
-        whileTap="tap"
-        transition={{ ease: "easeInOut" }}
-      >
-        <motion.img
-          src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png"
-          alt="Buy Me A Coffee"
-          style={{
-            height: "40px",
-            scale: 1,
-            width: "auto",
-            marginTop: "10px",
-          }}
-          variants={buttonVariants}
-          transition={{ ease: "easeInOut" }}
-        />
-      </motion.a>
+      
     </footer>
   );
 };

@@ -16,47 +16,47 @@
   },
   {
     "name": "TypeScript",
-    "icon": "/skills/typescript.png",
+    "icon": "/projectImages/typescript.png",
     "bgcolor": "#6c4bf0" 
   },
   {
     "name": "Bootstrap",
-    "icon": "/skills/bootstrap.png",
+    "icon": "/projectImages/bootstrap.png",
     "bgcolor": "#dcb4ff" 
   },
   {
     "name": "Tailwind",
-    "icon": "/skills/tailwind.png",
+    "icon": "/projectImages/tailwind.png",
     "bgcolor": "#d2f8cc"
   },
   {
     "name": "React JS",
-    "icon": "/skills/react.png",
+    "icon": "/projectImages/react-laptop.png",
     "bgcolor": "var(--hl-color)"
   },
   {
     "name": "Next JS",
-    "icon": "/skills/nextjs.png",
+    "icon": "/projectImages/nextjs.png",
     "bgcolor": "#f4e04d" 
   },
   {
     "name": "Node JS",
-    "icon": "/skills/nodejs.png",
+    "icon": "/projectImages/nodejs_laptop.png",
     "bgcolor": "var(--hl2-color)" 
   },
   {
     "name": "Express JS",
-    "icon": "/skills/express.png",
+    "icon": "/projectImages/express.png",
     "bgcolor": "#d2f8cc" 
   },
   {
     "name": "MonogDB",
-    "icon": "/skills/express.png",
+    "icon": "/projectImages/MongoDB.webp",
     "bgcolor": "#6c4bf0 " 
   },
   {
     "name": "SQL",
-    "icon": "/skills/express.png",
+    "icon": "/projectImages/express.png",
     "bgcolor": "#dcb4ff" 
   }
 ]
