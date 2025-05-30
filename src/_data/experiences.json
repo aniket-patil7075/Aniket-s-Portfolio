@@ -5,7 +5,7 @@
         "duration": "Jan 2024 - June 2024",
         "description": "Developed and optimized UI components for the ERP system. Improved overall responsiveness and user flow using React.js and Bootstrap.",
         "image": "/projectImages/P1.png",
-        "bgcolor": "#e8f0fe",
+        "bgcolor": "var(--hl2-color)",
         "id": "1"
     },
     {
@@ -14,7 +14,7 @@
         "duration": "Jan 2025 - Apr 2025",
         "description": "Contributed to the development of an e-commerce admin dashboard. Implemented reusable components and state management using React Context API.",
         "image": "/projectImages/P1.png",
-        "bgcolor": "#fef9e7",
+        "bgcolor": "var(--hl-color)",
         "id": "2"
     },
     {
@@ -23,7 +23,7 @@
         "duration": "May 2025 - Present",
         "description": "Built RESTful APIs using Node.js and Express. Integrated frontend with MongoDB for dynamic data handling. Enhanced user experience through responsive UI updates.",
         "image": "/projectImages/P1.png",
-        "bgcolor": "#e8f8f5",
+        "bgcolor": "#f85781",
         "id": "3"
       }
       
