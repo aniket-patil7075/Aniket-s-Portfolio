@@ -22,16 +22,16 @@ const Footer = () => {
 
   useEffect(() => {
     // Fetch GitHub repository information
-    fetch("https://api.github.com/repos/mdyeates/my-portfolio")
-      .then((res) => res.json())
-      .then((json) => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch((e) => console.error(e));
+    // fetch("https://api.github.com/repos/mdyeates/my-portfolio")
+    //   .then((res) => res.json())
+    //   .then((json) => {
+    //     const { stargazers_count, forks_count } = json;
+    //     setGitHubInfo({
+    //       stars: stargazers_count,
+    //       forks: forks_count,
+    //     });
+    //   })
+    //   .catch((e) => console.error(e));
   }, []);
 
   // Variants for button animation
