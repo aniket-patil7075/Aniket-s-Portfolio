@@ -4,7 +4,7 @@
         "company": "Mechlean Concept Pvt Ltd",
         "duration": "Jan 2024 - June 2024",
         "description": "Developed and optimized UI components for the ERP system. Improved overall responsiveness and user flow using React.js and Bootstrap.",
-        "image": "/projectImages/P1.png",
+        "image": "/projectImages/Web_Dev_Laptop_Bg.png",
         "bgcolor": "var(--hl2-color)",
         "id": "1"
     },
@@ -13,16 +13,16 @@
         "company": "FTFL Technology Pvt Ltd",
         "duration": "Jan 2025 - Apr 2025",
         "description": "Contributed to the development of an e-commerce admin dashboard. Implemented reusable components and state management using React Context API.",
-        "image": "/projectImages/P1.png",
+        "image": "/projectImages/MERN_Stack_Laptop_Bg.png",
         "bgcolor": "var(--hl-color)",
         "id": "2"
     },
     {
-        "role": "MERN Stack Developer (Next Js)",
+        "role": "Full Stack Developer (Next Js)",
         "company": "FTFL Technology Pvt Ltd",
         "duration": "May 2025 - Present",
         "description": "Built RESTful APIs using Node.js and Express. Integrated frontend with MongoDB for dynamic data handling. Enhanced user experience through responsive UI updates.",
-        "image": "/projectImages/P1.png",
+        "image": "/projectImages/full_stack_laptop-bg.png",
         "bgcolor": "#f85781",
         "id": "3"
       }

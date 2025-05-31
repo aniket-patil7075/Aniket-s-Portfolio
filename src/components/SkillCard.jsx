@@ -45,7 +45,7 @@ const SkillCard = ({ name, icon, bgcolor }) => {
         style={{
           position: "absolute",
           right: "20px",
-          top: "13%",
+          top: "15%",
           transform: "translateY(-50%)",
         }}
       >
