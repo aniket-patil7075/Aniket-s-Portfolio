@@ -1,33 +1,33 @@
 [
   {
     "name": "HTML",
-    "icon": "/projectImages/P1.png",
-    "bgcolor": "var(--hl2-color)"
-  },
-  {
-    "name": "CSS",
-    "icon": "/projectImages/P1.png",
+    "icon": "/projectImages/HTML-LAPTOP-removebg-preview.png",
     "bgcolor": "var(--hl-color)"
   },
   {
-    "name": "JavaScript",
-    "icon": "/projectImages/P1.png",
-    "bgcolor": "#f4e04d" 
+    "name": "CSS",
+    "icon": "/projectImages/C_S_S-LAPTOP-removebg-preview.png",
+    "bgcolor": "var(--hl2-color)"
   },
   {
-    "name": "TypeScript",
-    "icon": "/projectImages/typescript.png",
+    "name": "JavaScript",
+    "icon": "/projectImages/JAVASCRIPT-LAPTOP-removebg-preview.png",
     "bgcolor": "#6c4bf0" 
   },
   {
+    "name": "TypeScript",
+    "icon": "/projectImages/TYPESCRIPT-LAPTOP-removebg-preview.png",
+    "bgcolor": "#f4e04d" 
+  },
+  {
     "name": "Bootstrap",
-    "icon": "/projectImages/bootstrap.png",
+    "icon": "/projectImages/bootstrap-laptop-removebg-preview.png",
     "bgcolor": "#dcb4ff" 
   },
   {
     "name": "Tailwind",
-    "icon": "/projectImages/tailwind.png",
-    "bgcolor": "#d2f8cc"
+    "icon": "/projectImages/TAILWIND-LAPTOP-removebg-preview.png",
+    "bgcolor": "#f4e04d"
   },
   {
     "name": "React JS",
@@ -36,8 +36,8 @@
   },
   {
     "name": "Next JS",
-    "icon": "/projectImages/nextjs.png",
-    "bgcolor": "#f4e04d" 
+    "icon": "/projectImages/nextjs-laptop-removebg-preview.png",
+    "bgcolor": "#d2f8cc" 
   },
   {
     "name": "Node JS",
@@ -46,17 +46,17 @@
   },
   {
     "name": "Express JS",
-    "icon": "/projectImages/express.png",
+    "icon": "/projectImages/expressjs-laptop-removebg-preview.png",
     "bgcolor": "#d2f8cc" 
   },
   {
     "name": "MonogDB",
-    "icon": "/projectImages/MongoDB.webp",
+    "icon": "/projectImages/mongodb-laptop-removebg-preview.png",
     "bgcolor": "#6c4bf0 " 
   },
   {
     "name": "SQL",
-    "icon": "/projectImages/express.png",
+    "icon": "/projectImages/sql-laptop-removebg-preview.png",
     "bgcolor": "#dcb4ff" 
   }
 ]
