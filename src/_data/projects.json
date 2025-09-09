@@ -1,5 +1,18 @@
 [
   {
+    "title": "Book My Space",
+    "description": "Booking Travel Destination",
+    "image": "/projectImages/book-my-space-laptop-removebg-preview.png",
+    "image2": "/projectImages/cyclingfamily.jpeg",
+    "image3": "/projectImages/routes3.png",
+    "body": "Book My Space is a responsive and interactive office space rental web application built using Next.js, TypeScript, and Tailwind CSS. The platform enables workspace providers to register and list their coworking spaces, private offices, meeting rooms, and conference halls, while users can conveniently explore and book spaces tailored to their needs. With a modern and intuitive UI, the application features a sticky transparent navbar, dynamic search bar, location-based filters, and smooth navigation across sections such as Home, About, Services, Workspaces, Pricing, Blog, and Pages. Users can book spaces on an hourly, daily, weekly, or monthly basis, selecting their preferred location, date & time, number of occupants, and amenities, with real-time pricing updates.",
+    "technologies": [ "Nextjs","Typescript","Tailwind","Nodejs", "Expressjs","MongoDB"],
+    "github": "https://github.com/Ekata1233/BookMySpace",
+    "deployed": "https://book-my-space-eta.vercel.app/",
+    "bgcolor": "#3e67ff",
+    "id": "1"
+  },
+  {
     "title": "Travela",
     "description": "Booking Travel Destination",
     "image": "/projectImages/travela-port-removebg-preview.png",
@@ -10,7 +23,7 @@
     "github": "https://github.com/aniket-patil7075/Travela",
     "deployed": "https://travela-booking.vercel.app/",
     "bgcolor": "var(--hl2-color)",
-    "id": "1"
+    "id": "2"
   },
   {
     "title": "Male Fashion",
@@ -23,7 +36,7 @@
     "github": "https://github.com/aniket-patil7075/Male-Fashion",
     "deployed": "https://male-fashion-sandy.vercel.app/",
     "bgcolor": "var(--hl-color)",
-    "id": "2"
+    "id": "3"
   },
   {
     "title": "Chat Verse",
@@ -36,7 +49,7 @@
     "github": "https://github.com/aniket-patil7075/Chat_App",
     "deployed": "https://chat-verse-tau.vercel.app/",
     "bgcolor": "#6c4bf4",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "Quiz",
@@ -49,7 +62,7 @@
     "github": "https://github.com/mdyeates/coding-quiz",
     "deployed": "https://mdyeates.github.io/coding-quiz/",
     "bgcolor": "#f85781",
-    "id": "4"
+    "id": "5"
   },
 
   {
@@ -63,7 +76,7 @@
     "github": "https://github.com/Jake-W95/P1",
     "deployed": "https://p1-heroes.netlify.app/",
     "bgcolor": "#e47911",
-    "id": "5"
+    "id": "6"
   },
 
   {
@@ -77,6 +90,6 @@
     "github": "https://github.com/mdyeates/daily-planner",
     "deployed": "https://mdyeates.github.io/daily-planner/",
     "bgcolor": "#3e67ff",
-    "id": "6"
+    "id": "7"
   }
 ]
