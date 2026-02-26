@@ -58,5 +58,10 @@
     "name": "SQL",
     "icon": "/projectImages/sql-laptop-removebg-preview.png",
     "bgcolor": "#dcb4ff" 
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "/projectImages/sql-laptop-removebg-preview.png",
+    "bgcolor": "#f4e04d"
   }
 ]
