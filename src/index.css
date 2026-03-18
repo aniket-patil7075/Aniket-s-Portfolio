@@ -323,3 +323,250 @@ footer .socialIcons {
     display: inline-block;
   }
 }
+
+
+/* ===== GRID LAYOUT ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+
+/* ===== GLASS CARD ===== */
+.skill-card-glass {
+  height: 120px;
+  border-radius: 20px;
+  padding: 20px;
+
+  /* Glass Effect */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Glow */
+.skill-card-glass:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
+}
+
+/* Content */
+.skill-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* Text */
+.skill-content h5 {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Icon */
+.skill-content img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+/* Hover icon */
+.skill-card-glass:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== GRID ===== */
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  padding: 20px;
+}
+
+/* ===== GLASS CARD ===== */
+.experience-card-glass {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover */
+.experience-card-glass:hover {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.08);
+}
+
+/* LEFT (Logo) */
+.exp-left img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+/* RIGHT */
+.exp-right h5 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.exp-right h5 span {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+/* Duration */
+.duration {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+
+/* Description */
+.desc {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .experience-card-glass {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .exp-left img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* ===== GRID ===== */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+
+/* ===== GLASS CARD ===== */
+.project-card-glass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 350px; /* ✅ FIXED HEIGHT */
+  padding: 20px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+  overflow: hidden; /* ✅ prevent stretch */
+}
+
+/* Hover */
+.project-card-glass:hover {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.08);
+}
+
+/* TEXT */
+.project-text h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.view-work {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* IMAGE */
+.project-image img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  opacity: 0.9;
+}
+
+/* Hover image */
+.project-card-glass:hover img {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* LINK RESET */
+.project-link {
+  text-decoration: none;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-card-glass {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .project-image img {
+    width: 140px;
+  }
+}

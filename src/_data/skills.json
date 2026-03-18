@@ -1,67 +1,17 @@
+
+
 [
-  {
-    "name": "HTML",
-    "icon": "/projectImages/HTML-LAPTOP-removebg-preview.png",
-    "bgcolor": "var(--hl-color)"
-  },
-  {
-    "name": "CSS",
-    "icon": "/projectImages/C_S_S-LAPTOP-removebg-preview.png",
-    "bgcolor": "var(--hl2-color)"
-  },
-  {
-    "name": "JavaScript",
-    "icon": "/projectImages/JAVASCRIPT-LAPTOP-removebg-preview.png",
-    "bgcolor": "#6c4bf0" 
-  },
-  {
-    "name": "TypeScript",
-    "icon": "/projectImages/TYPESCRIPT-LAPTOP-removebg-preview.png",
-    "bgcolor": "#f4e04d" 
-  },
-  {
-    "name": "Bootstrap",
-    "icon": "/projectImages/bootstrap-laptop-removebg-preview.png",
-    "bgcolor": "#dcb4ff" 
-  },
-  {
-    "name": "Tailwind",
-    "icon": "/projectImages/TAILWIND-LAPTOP-removebg-preview.png",
-    "bgcolor": "#f4e04d"
-  },
-  {
-    "name": "React JS",
-    "icon": "/projectImages/react-laptop.png",
-    "bgcolor": "var(--hl-color)"
-  },
-  {
-    "name": "Next JS",
-    "icon": "/projectImages/nextjs-laptop-removebg-preview.png",
-    "bgcolor": "#d2f8cc" 
-  },
-  {
-    "name": "Node JS",
-    "icon": "/projectImages/nodejs_laptop.png",
-    "bgcolor": "var(--hl2-color)" 
-  },
-  {
-    "name": "Express JS",
-    "icon": "/projectImages/expressjs-laptop-removebg-preview.png",
-    "bgcolor": "#d2f8cc" 
-  },
-  {
-    "name": "MonogDB",
-    "icon": "/projectImages/mongodb-laptop-removebg-preview.png",
-    "bgcolor": "#6c4bf0 " 
-  },
-  {
-    "name": "SQL",
-    "icon": "/projectImages/sql-laptop-removebg-preview.png",
-    "bgcolor": "#dcb4ff" 
-  },
-  {
-    "name": "PostgreSQL",
-    "icon": "/projectImages/sql-laptop-removebg-preview.png",
-    "bgcolor": "#f4e04d"
-  }
+  { "name": "HTML", "icon": "/projectImages/HTML-LAPTOP-removebg-preview.png" },
+  { "name": "CSS", "icon": "/projectImages/C_S_S-LAPTOP-removebg-preview.png" },
+  { "name": "JavaScript", "icon": "/projectImages/JAVASCRIPT-LAPTOP-removebg-preview.png" },
+  { "name": "TypeScript", "icon": "/projectImages/TYPESCRIPT-LAPTOP-removebg-preview.png" },
+  { "name": "Bootstrap", "icon": "/projectImages/bootstrap-laptop-removebg-preview.png" },
+  { "name": "Tailwind", "icon": "/projectImages/TAILWIND-LAPTOP-removebg-preview.png" },
+  { "name": "React JS", "icon": "/projectImages/react-laptop.png" },
+  { "name": "Next JS", "icon": "/projectImages/nextjs-laptop-removebg-preview.png" },
+  { "name": "Node JS", "icon": "/projectImages/nodejs_laptop.png" },
+  { "name": "Express JS", "icon": "/projectImages/expressjs-laptop-removebg-preview.png" },
+  { "name": "MongoDB", "icon": "/projectImages/mongodb-laptop-removebg-preview.png" },
+  { "name": "SQL", "icon": "/projectImages/sql-laptop-removebg-preview.png" },
+  { "name": "PostgreSQL", "icon": "/projectImages/sql-laptop-removebg-preview.png" }
 ]
